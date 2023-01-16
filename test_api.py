@@ -36,7 +36,7 @@ def get_balances():
 
 if __name__ == "__main__":
     # enter your credentials here to test out the service
-    # data = '{"client_id": "1", "client_password": "2", "x_api_key":"3"}'
+    data ="{\"client_id\": \"1\", \"client_password\": \"2\", \"x_api_key\": \"3\"}"
 
     set_credentials(data)
     print(get_credentials())
