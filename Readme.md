@@ -86,10 +86,10 @@ The client_password will not be returned for security reasons
 
 This service returns your current balance and your available balance for each of your transactions in a json format
 ```json
-"[
-  {'account_id': 'xxx', 'currentBalance': 1234, 'availableBalance': 1234}, 
-  {'account_id': 'xxx', 'currentBalance': 1234, 'availableBalance': 1234}
-]"
+[
+  {"account_id": "xxx", "currentBalance": 1234, "availableBalance": 1234}, 
+  {"account_id": "xxx", "currentBalance": 1234, "availableBalance": 1234}
+]
 ```
 
 ### generate_monthly_expenses
